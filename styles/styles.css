@@ -48,6 +48,79 @@ body{
   transform: translate(-50%,-50%);
 }
 
+.center-bird {
+  position: absolute;
+  top:10%;
+  left:5%;
+}
+
+.center-bird-2 {
+  position: absolute;
+  top:25%;
+  left:10%;
+}
+
+#bird-1 {
+    margin-left: 460px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bird-2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bird-3 {
+    margin-left: 900px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bird-4 {
+    margin-left: 1400px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bird-5 {
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+#bird-6 {
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
 #cloud-1 {
   background: rgba(255, 255, 255);
   width: 300px;
@@ -156,7 +229,7 @@ body{
     bottom: 0;
     border-left: 250px solid transparent;
     border-right: 250px solid transparent;
-    border-bottom: 280px solid #977c53;
+    border-bottom: 280px solid #52432c;
 
 }
 .mountain-top-2 {
