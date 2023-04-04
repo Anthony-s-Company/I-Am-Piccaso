@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/form.css" />
 
     <title>Document</title>
 </head>
@@ -21,16 +22,12 @@
                 <div class="center-2">
                     <div id="cloud-2"></div>
                 </div>
-                <div class="center-bird">
-                    <div id="bird-1"></div>
-                    <div id="bird-2"></div>
-                    <div id="bird-3"></div>
-                    <div id="bird-4"></div>
-                </div>
-                <div class="center-bird-2">
-                    <div id="bird-5"></div>
-                    <div id="bird-6"></div>
-                </div>
+            </div>
+            <div class="center-bird">
+                <div id="bird-1"></div>
+                <div id="bird-2"></div>
+                <div id="bird-3"></div>
+                <div id="bird-4"></div>
             </div>
         </div>
         <div id="ground">
@@ -54,6 +51,18 @@
             </div>
 
         </div>
+    </div>
+
+    <div class="form-style-5">
+        <form target="_blank" action="buyer.html" method="POST" id="buy">
+            <fieldset>
+                <legend><span class="number">1</span> Buyer Info</legend>
+                <input type="text" name="name" placeholder="Your Name *">
+                <input type="email" name="email" placeholder="Your Email *">
+                <textarea name="info" placeholder="About yourself"></textarea>
+            </fieldset>
+            <input type="submit" value="Apply" />
+        </form>
     </div>
 
     <script src="./js/index.js"></script>

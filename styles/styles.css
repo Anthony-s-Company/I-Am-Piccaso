@@ -4,7 +4,6 @@ body{
 }
 
 #canvas{
-    width: 80%;
     height: 800px;
     border: 5px solid black;
     background-color: rgb(248, 248, 248);
@@ -15,8 +14,8 @@ body{
     width: 100%;
     height: 800px;
     background: skyblue;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
     margin-top: 0 auto;
 }
 
@@ -30,7 +29,6 @@ body{
 
 #sun {
     margin-top: 30px;
-    display:inline-block;
     border-radius:50%;
     height:200px;
     width:200px;
@@ -49,22 +47,18 @@ body{
 }
 
 .center-bird {
-  position: absolute;
-  top:10%;
-  left:5%;
-}
-
-.center-bird-2 {
-  position: absolute;
-  top:25%;
-  left:10%;
+  width: 50%;
+  height: 30%;
+  display: grid;
+  padding-top: 10px;
+  margin-top: -25px;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
 }
 
 #bird-1 {
-    margin-left: 460px;
     width: 20px;
     height: 20px;
-    position: absolute;
     transform: rotate(45deg);
     border-right: 4px solid black;
     border-bottom: 4px solid black;
@@ -73,49 +67,22 @@ body{
 #bird-2 {
     width: 20px;
     height: 20px;
-    position: absolute;
     transform: rotate(45deg);
     border-right: 4px solid black;
     border-bottom: 4px solid black;
 }
 
 #bird-3 {
-    margin-left: 900px;
     width: 20px;
     height: 20px;
-    position: absolute;
     transform: rotate(45deg);
     border-right: 4px solid black;
     border-bottom: 4px solid black;
 }
 
 #bird-4 {
-    margin-left: 1400px;
     width: 20px;
     height: 20px;
-    position: absolute;
-    transform: rotate(45deg);
-    border-right: 4px solid black;
-    border-bottom: 4px solid black;
-}
-
-#bird-5 {
-    margin-top: 100px;
-    margin-left: 700px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    transform: rotate(45deg);
-    border-right: 4px solid black;
-    border-bottom: 4px solid black;
-}
-
-#bird-6 {
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
     transform: rotate(45deg);
     border-right: 4px solid black;
     border-bottom: 4px solid black;
@@ -247,3 +214,9 @@ body{
     border-top: 25px solid #ceeaf6;
 }
 .mountain-cap-1-2 { left: -55px; }
+
+@media only screen and (max-width: 1100px){
+  .center-mountains{
+    display: none;
+  }
+}
